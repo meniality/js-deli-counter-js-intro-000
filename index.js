@@ -1,11 +1,11 @@
 function takeANumber(currentLineOfPeople, name){
   currentLineOfPeople.push(name)
-  return (`Welcome, ${name}. You are number ` + currentLineOfPeople.length + ` in line.`)
+  return (`Welcome, ${name}. You are number ` + currentLineOfPeople.length + " in line.")
 }
 
 function nowServing(currentLineOfPeople){
   if (currentLineOfPeople.length>0){
-  return (`Currently serving `+ `${currentLineOfPeople.shift()}.`)}
+  return (`Currently serving ${currentLineOfPeople.shift()}.`)}
 
   else {return ("There is nobody waiting to be served!")}
 }
